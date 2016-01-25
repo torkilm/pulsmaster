@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PulsMaster</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <p><h1>Puls zones</h1></p>
+  <p><h2>Calculate your max puls</h2></p>
+  <p>We recomend that you do a test to find your max puls. A calculated max
+  puls might not be correct for you.</p>
+  <div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <span class="label">Age</span>
+      <input type="number" name="age" id="inputAge" class="form-control" value="" min="{5"} max="" step="" required="required" title="">
+    </div>
+  </div>
+
+  <p>If you have done a max puls test and know your max puls, you can input it here:</p>
+  <div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <span class="label">MaxPuls</span>
+        <input type="number" name="maxpuls" id="input" class="form-control" value="" min="{5"} max="" step="" required="required" title="">
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <h3>Puls zone</h3>
+        <div class="row">
+          <p>1</p>
+        </div>
+        <div class="row">
+          <p>2</p>
+        </div>
+        <div class="row">
+          <p>3</p>
+        </div>
+        <div class="row">
+          <p>4</p>
+        </div>
+        <div class="row">
+          <p>5</p>
+        </div>
+    </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <h3>Work out</h3>
+    </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <h3>Min % of MaxHB</h3>
+    </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <h3>Max % of MaxHB</h3>
+    </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <h3>min HB</h3>
+    </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <h3>max HB</h3>
+    </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <h3>Average HB</h3>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+</body>
+</html>
